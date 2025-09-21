@@ -1,0 +1,28 @@
+{
+  "name": "xy-website",
+  "version": "1.0.0",
+  "description": "XY Website - A modern web foundation ready for customization",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx http-server . -p 3000 -o --watch",
+    "build": "echo 'Build process ready for implementation'",
+    "test": "echo 'Test suite ready for implementation'"
+  },
+  "keywords": [
+    "website",
+    "web",
+    "frontend",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "XY Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
